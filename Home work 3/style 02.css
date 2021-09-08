@@ -1,0 +1,106 @@
+body {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #990909;
+}
+
+header {
+    background-color: #990100;
+    text-align: center;
+}
+
+div.pictures {
+    display: block;
+    background-color: #030101;
+}
+
+figure.cat {
+    display: inline-block;
+}
+
+figure.cat img {
+    width: 190px;
+    height: 140px;
+}
+
+figure.buterfly {
+    display: inline-block;
+}
+
+figure.buterfly img {
+    width: 190px;
+    height: 140px;
+}
+
+figure.clock {
+    display: inline-block;
+}
+
+figure.clock img {
+    width: 190px;
+    height: 140px;
+}
+
+figure.flower {
+    display: inline-block;
+}
+
+figure.flower img {
+    width: 190px;
+    height: 140px;
+}
+
+figcaption {
+    text-align: center;
+    color: white;
+}
+
+div.main {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    background-color: #7D0909;
+    height: 300px;
+    width: 180px;
+    flex-direction: column;
+}
+
+nav p {
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    color: chocolate;
+}
+
+div.center {
+    width: 70%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+div.center p {
+    color: cornsilk;
+}
+
+aside {
+    background-color: white;
+    height: 300px;
+    width: 140px;
+}
+
+aside h3 {
+    margin-top: 0%;
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+footer p {
+    background-color: chocolate;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}

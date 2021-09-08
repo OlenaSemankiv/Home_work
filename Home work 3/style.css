@@ -1,0 +1,68 @@
+body {
+    display: block;
+    width: fit-content;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+header h1 {
+    background-color: #a52a2a;
+    color: #fff;
+    text-align: center;
+}
+
+div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div p {
+    text-align: left;
+    font-size: 18px;
+}
+
+b+i {
+    color: blue;
+}
+
+div.car+p::before {
+    content: 'Lorem ipsum';
+    color: rgb(0, 17, 255);
+}
+
+div.car {
+    margin-left: 20%;
+}
+
+p.car01 {
+    display: inline-block;
+    border: 5px dashed black;
+}
+
+p.car02 {
+    display: inline-block;
+    border: 5px dashed black;
+}
+
+p.car03 {
+    display: inline-block;
+    border: 5px dashed black;
+}
+
+p.car04 {
+    display: inline-block;
+    border: 5px dashed black;
+}
+
+p.car05 {
+    display: inline-block;
+    border: 5px dashed black;
+}
+
+footer p {
+    background-color: #080101;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
