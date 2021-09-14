@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(250, 238, 238);
+    display: flex;
+    margin-top: 15%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.block1 svg {
+    margin-left: 140px;
+    position: relative;
+}
+
+.block2 svg {
+    margin-left: 140px;
+    position: relative;
+}
+
+.block3 svg {
+    margin-left: 140px;
+    position: relative;
+}
+
+.circle1:hover {
+    fill: honeydew;
+    stroke: 3px #2a69a6;
+}
+
+svg path.icon1:hover {
+    fill: #2a69a6;
+}
+.circle2:hover {
+    fill: honeydew;
+    stroke: 3px #2a69a6;
+}
+
+svg path.icon2:hover {
+    fill: #2a69a6;
+}
+.circle3:hover {
+    fill: honeydew;
+    stroke: 3px #2a69a6;
+}
+
+svg path.icon3:hover {
+    fill: #2a69a6;
+}
+
+p {
+    color: #979191;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
