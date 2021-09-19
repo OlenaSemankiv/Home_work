@@ -2,6 +2,8 @@ body {
     display: block;
     width: 100%;
     background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 header svg {
@@ -14,10 +16,9 @@ body h2 {
     color: blanchedalmond;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: unset;
-    margin: 65px 0 0 20px;
+    margin: 65px 500px 0 470px;
     letter-spacing: 3px;
-    text-align: center;
-}
+    }
 
 h2:after {
     content: '';
@@ -25,7 +26,7 @@ h2:after {
     background-color: white;
     height: 1px;
     width: 300px;
-    margin: 25px 0 0 410px;
+    margin: 25px 0 0 -40px;
 }
 
 div {
@@ -40,8 +41,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: unset;
     color: white;
-    text-align: center;
-    margin-top: 120px;
+    margin: 120px 500px 0 470px;
 }
 
 span {
