@@ -1,0 +1,77 @@
+body {
+    display: block;
+    background-color: #f7f7ff;
+    font-size: 0px;
+}
+
+header {
+    width: 40%;
+    margin: 55px auto;
+    text-align: center;
+}
+
+h5 {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(137, 143, 153);
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 2.5;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: "Montserrat";
+    color: rgb(14, 200, 203);
+    line-height: 0.625;
+}
+
+header p {
+    font-size: 18px;
+    font-family: "PTSans";
+    color: rgb(153, 153, 153);
+    line-height: 1.667;
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin: 55px auto;
+    vertical-align: top;
+    background-color: #FFFAFA;
+}
+
+div p {
+    padding: 0 55px 50px;
+    font-size: 14px;
+    font-family: "PTSans";
+    color: rgb(119, 119, 119);
+    line-height: 1.571;
+}
+
+div h3 {
+    font-size: 21px;
+    font-family: "Montserrat";
+    line-height: 1.2;
+}
+
+svg {
+    padding-top: 50px;
+    height: 80px;
+    text-align: center;
+}
+
+div:hover {
+    background-color: #27b4b6;
+    color: white;
+}
+
+div:hover p{
+    color: white;
+}
+
+div:hover svg path {
+    fill: white;
+}
