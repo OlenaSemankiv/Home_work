@@ -1,0 +1,169 @@
+:root {
+    --font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    box-sizing: border-box;
+    background-color: #3399CC;
+    border: 20px solid #2b81ac;
+    margin: 0 10%;
+    font-size: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: var(--font-family);
+    color: white;
+    padding: 10px 150px 5px;
+}
+
+svg.forecast_logo {
+    fill: white;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+section {
+    margin: 0 10%;
+}
+
+section li {
+    font-size: 20px;
+    font-family: var(--font-family);
+    display: inline-block;
+    color: white;
+    border: white 3px solid;
+    text-align: center;
+}
+
+.Lisbon {
+    background-color: #3399cc;
+    padding: 20px 130px 10px;
+}
+
+.Lisbon:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+.Paris {
+    background-color: #33cccc;
+    padding: 20px 49px 10px;
+}
+
+.Paris:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+.Belgrade {
+    background-color: #996699;
+    padding: 20px 39px 10px;
+}
+
+.Belgrade:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+.Moscow {
+    background-color: #c24747;
+    padding: 20px 42px 10px;
+}
+
+.Moscow:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+.Tel_Aviv {
+    background-color: #e2674a;
+    padding: 20px 41px 10px;
+}
+
+.Tel_Aviv:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+.Cair {
+    background-color: #ffcc66;
+    padding: 20px 49px 10px;
+}
+
+.Cair:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+.New_York {
+    background-color: #99cc99;
+    padding: 20px 37px 10px;
+}
+
+.New_York:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+.New_Delhi {
+    background-color: #669999;
+    padding: 20px 37px 10px;
+}
+
+.New_Delhi:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+.San_Francisco {
+    background-color: #cc6699;
+    padding: 20px 114px 10px;
+}
+
+.San_Francisco:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+.Tokyo {
+    background-color: #339966;
+    padding: 20px 46px 10px;
+}
+
+.Tokyo:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+.Sydney {
+    background-color: #666699;
+    padding: 20px 311px 10px;
+}
+
+.Sydney:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
+}
+
+section li p {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 10px 0;
+    text-align: center;
+}
+
+p.text {
+    font-size: 16px;
+    font-family: var(--font-family);
+    color: white;
+    padding: 10px 150px 200px;
+}
