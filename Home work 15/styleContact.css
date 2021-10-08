@@ -1,8 +1,9 @@
 :root {
     --font-family: 'Raleway', sans-serif;
-    --color: white;
+    --color: white; /*Ай какая прелесть */
 }
 
+/* любо глянуть */
 body {
     display: block;
     background-image: url("Pictures/background.png");
