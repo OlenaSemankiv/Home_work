@@ -193,6 +193,15 @@ body {
     }
 }
 
+@media screen and (max-width:400px) {
+     body header div.menu_button button.signin, body header div.menu_button button.signup {
+        display: none;
+    }
+    body header div.dropdown button.dropbtn {
+        margin-left: 200%;
+    }
+}
+
 header div.dropdown.dropdown {
     position: relative;
     display: inline-block;
