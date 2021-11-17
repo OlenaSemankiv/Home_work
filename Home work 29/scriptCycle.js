@@ -34,30 +34,19 @@
 //        console.log(`${i}`);
 //     }
 // -------------------task5-------------------
-// let Q1 = 0, Q2 = 0;
-// let N = prompt("введите 10 чисел: ",);
-// if (N) {
-//     N.split(" ").map(function (s) {
-//         var num = parseInt(s);
-//         if (num !== NaN) {
-//             if (num > 0 && num != 0) { Q1++; }
-//             else { Q2++; }
-//         }
-//     });
+// let count = 0;
+// let arr = new Array();
+// for (let i = 0; i <= 10; i++){
+//     arr.push(prompt('Enter a number', 0));
+//     if (arr[i] >= 0){
+//         count++;
+//     }
+//     if (isNaN(arr[i])){
+//         alert('Error');
+//         break;
+//     }
 // }
-// if (Q1 > 0) {
-//     alert("Количество положительных: " + Q1);
-// }
-// else {
-//     alert("Положительных чисел нет");
-// }
-
-// if (Q1 > 0) {
-//     alert("Количество отрицательных: " + Q2);
-// }
-// else {
-//     alert("Отрицательных чисел нет");
-// }
+// alert(`You have entered ${count} numbers that is positive`);
 
 // -------------------task6-------------------
 // while (true) {
@@ -74,6 +63,15 @@
 //     if (!confirm('Чи хочете ви розвязати ще один приклад?')) break;
 // }
 
+// -------------------task7-------------------
+// const num = prompt('Enter a number', 0);
+// const sliceNum = prompt('Enter a shift number',0);
+// if(isNaN(num) || isNaN(sliceNum)){
+//     alert('Error');
+// } else {
+//     alert(`Result number is ${num.slice(sliceNum) + num.slice(0, sliceNum)}`);
+// }
+
 // -------------------task8-------------------
 // const days = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
 // let currDay = 0;
@@ -81,4 +79,3 @@
 // while (confirm(`${days[currDay]}. Хотите увидеть следующий день?`)) {
 //     currDay = (currDay + 1) % days.length;
 // }
-// -------------------task9-------------------
