@@ -4,9 +4,39 @@
 
 // Напиши всі можливі варіанти створення функцій.
 // -Function Declaration;
+// function myFunc(theObject) {
+//     theObject.make = 'Toyota';
+//   }
+  //   let mycar = {make: 'Honda', model: 'Accord', year: 1998};
+//   let x, y;
+  //   x = mycar.make; // x получает значение "Honda"
+  //   myFunc(mycar);
+//   y = mycar.make; // y получает значение "Toyota"
+//                   // (свойство было изменено функцией)
 // -Function Expression;
+// function map(f, a) {
+//     var result = []; // Create a new Array
+//     var i; // Declare variable
+//     for (i = 0; i != a.length; i++)
+//       result[i] = f(a[i]);
+//         return result;
+//   }
+//   var f = function(x) {
+//      return x * x * x;
+//   }
+//   var numbers = [0, 1, 2, 5, 10];
+//   var cube = map(f,numbers);
+//   console.log(cube);
 // -Arrow Function.
+// function Person(){
+//     this.age = 0;
+  //     setInterval(() => {
+//       this.age++; // `this` указывает на объект Person
+//     }, 1000);
+//   }
+  //   var p = new Person();
 // -Анонимная функция
+// setTimeout( function(){ alert('анонімна функція'); }, 100);
 
 
 // Створи функцію, яка буде виводити кількість переданих їй аргументів.
@@ -91,6 +121,12 @@
 //     }
 // };
 // perfectInRange(start, end);
+
+
+
+
+
+
 
 
 // --------- task7----------
