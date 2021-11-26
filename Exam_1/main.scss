@@ -9,6 +9,13 @@
 $font_jo: "Josefin Sans";
 $font_al: "Aleo";
 
+/*
+- Шрифты нужно подключать отдельным файлом.
+- структура вложенности - хорошая
+Правильно если БЕМ не используешь то тогда хоть структуру нужно гармоничную делать.
+Чтобы можно было интуетивно понять где что лежит, и найти.
+
+*/
 header {
     background: url("../assets/Image3.png");
     background-size: cover;
@@ -115,6 +122,7 @@ header {
             animation: down 2s infinite;
             box-sizing: border-box;
 
+            /* молодец */
             @-webkit-keyframes down {
                 0% {
                     -webkit-transform: rotate(-45deg) translate(0, 0);
@@ -440,7 +448,7 @@ header {
             grid-area: 2 / 2 / 3 / 3;
             font-size: 1em;
             color: #e8e8e8;
-            font-family: "$font_jo";
+            font-family: "$font_jo"; // опечатка )))
             text-align: justify;
             margin: 0 5% 5% 0;
             span {
