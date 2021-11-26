@@ -10,45 +10,44 @@
 // Також потрібно перевірити чи вистачить палива, для здійснення цієї поїздки, якщо палива не вистачить потрібно вивести повідомлення, 
 // про це і запропонувати заправити автомобіль.
 // ---------------task1---------------
-let newCar = new Object("Toyota", "GT86", 2012, 226 , 50 , 7.8 , "Peter Pan");
-function Object(producer, model, year, speed, fuel_tank, fuel_consumption, driver) {
-  this.producer = producer;
-  this.model = model;
-  this.year = year;
-  this.speed = speed;
-  this.fuel_tank = fuel_tank;
-  this.fuel_consumption = fuel_consumption;
-  this.driver = driver;
-}
-console.log(newCar);
-let ran = new Person("Rand McKinnon","Ken Jones");
-function Person(driver1,driver2) {
-  this.driver1 = driver1;
-  this.driver2 = driver2;
-};
-console.log(newCar.driver);
-console.log(ran.driver1);
-console.log(ran.driver2);
+// let newCar = new Object("Toyota", "GT86", 2012, 226, 50, 7.8, "Peter Pan");
+// function Object(producer, model, year, speed, fuel_tank, fuel_consumption, driver) {
+//   this.producer = producer;
+//   this.model = model;
+//   this.year = year;
+//   this.speed = speed;
+//   this.fuel_tank = fuel_tank;
+//   this.fuel_consumption = fuel_consumption;
+//   this.driver = driver;
+// }
+// console.log(newCar);
+// let ran = new Person("Rand McKinnon", "Ken Jones");
+// function Person(driver1, driver2) {
+//   this.driver1 = driver1;
+//   this.driver2 = driver2;
+// };
+// console.log(newCar.driver);
+// console.log(ran.driver1);
+// console.log(ran.driver2);
 
-function addFuel(car, fuel) {
-    car.fuel_tank = car.fuel_tank + fuel;
-  }
-  addFuel(newCar, 25)
-  console.log(newCar.fuel_tank);
-  function timeForTravel(car, distance)
-  {
-    let time = distance / car.speed;
-    let totalTime;
-    if (time < 4) {
-      totalTime = time;
-      return totalTime;
-    } else {
-      let t = (time - time % 4) / 4;
-      totalTime = t + time;
-    }
-    return totalTime;
-  }
-  console.log(timeForTravel(newCar,352 ));
+// function addFuel(car, fuel) {
+//   car.fuel_tank = car.fuel_tank + fuel;
+// }
+// addFuel(newCar, 25)
+// console.log(newCar.fuel_tank);
+// function timeForTravel(car, distance) {
+//   let time = distance / car.speed;
+//   let totalTime;
+//   if (time < 4) {
+//     totalTime = time;
+//     return totalTime;
+//   } else {
+//     let t = (time - time % 4) / 4;
+//     totalTime = t + time;
+//   }
+//   return totalTime;
+// }
+// console.log(timeForTravel(newCar, 352));
 
 // Створити об'єкт, що описує час (години, хвилини, секунди), і такі функції для роботи з цим об'єктом:
 // Для виведення часу на екран.
@@ -128,3 +127,12 @@ function addFuel(car, fuel) {
 // console.log(time.changeHours(45));
 // time.show();
 
+// Максимум
+
+// Створи об'єкт, що описує звичайний дріб. Створи об'єкт, який має методи роботи з дробом:
+// Складання 2-х об'єктів-дробів.
+// Віднімання 2-х об'єктів-дробів.
+// Множення 2-х об'єктів-дробів.
+// Ділення 2-х об'єктів-дробів.
+// Скорочення об'єкта-дробу.
+// (Тобі потрібно буде створити ще деякі методи не зазначені в завданні, для отримання математично правильної відповіді)
