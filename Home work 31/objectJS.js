@@ -10,11 +10,12 @@
 // Також потрібно перевірити чи вистачить палива, для здійснення цієї поїздки, якщо палива не вистачить потрібно вивести повідомлення, 
 // про це і запропонувати заправити автомобіль.
 // ---------------task1---------------
-let newCar = new Object("Toyota", "GT86", 2012, "226 km/h", "50 l.", "7,8 l/100km", "Peter Pan");
+let newCar = new Object("Toyota", "GT86", 2012, 226 , 50 , 7.8 , "Peter Pan");
 function Object(producer, model, year, speed, fuel_tank, fuel_consumption, driver) {
   this.producer = producer;
   this.model = model;
   this.year = year;
+  this.speed = speed;
   this.fuel_tank = fuel_tank;
   this.fuel_consumption = fuel_consumption;
   this.driver = driver;
@@ -28,6 +29,27 @@ function Person(driver1,driver2) {
 console.log(newCar.driver);
 console.log(ran.driver1);
 console.log(ran.driver2);
+
+function addFuel(car, fuel) {
+    car.fuel_tank = car.fuel_tank + fuel;
+  }
+  addFuel(newCar, 25)
+  console.log(newCar.fuel_tank);
+  function timeForTravel(car, distance)
+  {
+    let time = distance / car.speed;
+    let totalTime;
+    if (time < 4) {
+      totalTime = time;
+      return totalTime;
+    } else {
+      let t = (time - time % 4) / 4;
+      totalTime = t + time;
+    }
+    return totalTime;
+  }
+  console.log(timeForTravel(newCar,352 ));
+
 // Створити об'єкт, що описує час (години, хвилини, секунди), і такі функції для роботи з цим об'єктом:
 // Для виведення часу на екран.
 // Зміни часу на передане кількість секунд.
@@ -105,3 +127,4 @@ console.log(ran.driver2);
 // time.show();
 // console.log(time.changeHours(45));
 // time.show();
+
